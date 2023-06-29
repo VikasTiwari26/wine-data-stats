@@ -1,0 +1,19 @@
+.table-container {
+    width: 90%;
+    margin: 48px auto;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container table tr td:first-child{
+    max-width: 20px;
+}
+
+.table-container h3 {
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+}
