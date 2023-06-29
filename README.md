@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `Screenshots of Tables`
+
+Flavanoids Stats.\
+![stats_screenshot](./src/images/flavanoids.png)
+
+Gamma Stats.\
+![stats_screenshot](./src/images/gamma.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,14 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `Screenshots of Tables`
-
-Flavanoids Stats.\
-![stats_screenshot](./src/images/flavanoids.png)
-
-Gamma Stats.\
-![stats_screenshot](./src/images/gamma.png)
 
 ### `yarn test`
 
