@@ -2,37 +2,43 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-wrapper {}
+
+.img-wrapper img {
+  width: 50px;
+  margin-top: -8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-wrapper {}
+
+.btn-wrapper {}
+
+.btn-wrapper button {
+  background-color: #f94a4ac2;
+  border: none;
+  border-radius: 17px;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 1px 1px 5px #000;
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+  float: left;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-to-cart img {
+  width: 50px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
 }
