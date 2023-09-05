@@ -2,6 +2,7 @@
   "name": "wine-data-stats",
   "version": "0.1.0",
   "private": true,
+  "proxy":"http://static-web-site-ssm.s3-website.ap-south-1.amazonaws.com/",
   "dependencies": {
     "@aws-sdk/client-ssm": "^3.370.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -13,6 +14,7 @@
     "@types/react-dom": "^18.0.0",
     "amazon-cognito-identity-js": "^6.3.1",
     "aws-sdk": "^2.1415.0",
+    "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.1",

@@ -1,0 +1,26 @@
+.video-upload button {
+  margin: 5px;
+}
+
+.validate-audio-cntnr {
+  margin-top: 28px;
+}
+
+#file-upload {
+  position: absolute;
+  visibility: hidden;
+  z-index: -999;
+}
+
+.validate-audio-cntnr.not-uploaded label {
+  border: 3px solid grey;
+  color: grey;
+  padding: 7px;
+  border-radius: 17px;
+}
+.validate-audio-cntnr.uploaded label {
+  border: 3px solid green;
+  color: green;
+  padding: 7px;
+  border-radius: 17px;
+}

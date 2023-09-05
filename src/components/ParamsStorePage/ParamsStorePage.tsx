@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import { SSMClient, GetParametersCommand, SSM } from "@aws-sdk/client-ssm";
 import { endpointList, getBaseUrlName } from "../../utils/getParametersName";
 import * as AmazonCognitoIdentity from "amazon-cognito-identity-js"
-import * as AWS from "aws-sdk"
+import * as AWS from "aws-sdk";
+import axios from 'axios';
 
 const ParamsStorePage = ({ }: any) => {
 
@@ -49,9 +50,15 @@ const ParamsStorePage = ({ }: any) => {
 
 
 
-        getSsmData()
-
+        // getSsmData()
+        getUrlsFromJSON()
     }, [])
+
+    const getUrlsFromJSON =async()=>{
+        // const response = await axios.get('https://static-web-site-ssm.s3.ap-south-1.amazonaws.com/urls.json')
+        const response = await axios.get('/urls.json')
+        console.log("RESPONSE : ", response)
+    }
 
 
     const getSsmData = async () => {
